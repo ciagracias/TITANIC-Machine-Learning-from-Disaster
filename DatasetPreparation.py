@@ -10,6 +10,10 @@ dt_test = pd.read_csv("Dataset/test.csv") # Without label data
 dt_train.head()
 dt_test.head()
 
+# Sort data by Data Type
+dt_train = dt_train[['PassengerId', 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Sex', 'Embarked', 'Name', 'Ticket', 'Cabin', 'Survived']]
+dt_test = dt_test[['PassengerId', 'Pclass', 'Age', 'SibSp', 'Parch', 'Fare', 'Sex', 'Embarked', 'Name', 'Ticket', 'Cabin']]
+
 # Separates the data set into feature and label data in Training Data
 x_train = dt_train.iloc[:, 0:8] # Feature
 y_train = dt_train.iloc[:, -1] # Label
