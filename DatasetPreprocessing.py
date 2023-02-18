@@ -22,4 +22,4 @@ x_test
 sc = StandardScaler()  
 # Scalling data
 x_train = sc.fit_transform(x_train)
-x_test = sc.transform(x_test)  
+x_test = sc.fit_transform(x_test)  
