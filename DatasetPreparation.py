@@ -14,7 +14,7 @@ dt_test.head()
 x_train = dt_train.iloc[:, 0:8] # Feature
 y_train = dt_train.iloc[:, -1] # Label
 # Separates the data set into feature data in  Test Data
-x_test = data.iloc[:, 0:8] # Feature
+x_test = dt_test.iloc[:, 0:8] # Feature
 
 # Show the Training Data
 x_train
