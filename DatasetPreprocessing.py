@@ -1,6 +1,6 @@
 # Import Library
 from sklearn.preprocessing import LabelEncoder # Encode data
-from sklearn.preprocessing import StandarScaler # Scalling data
+from sklearn.preprocessing import StandardScaler # Scalling data
 
 # Encode Data
 le = LabelEncoder()
