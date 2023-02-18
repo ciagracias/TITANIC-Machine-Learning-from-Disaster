@@ -1,5 +1,5 @@
 # TITANIC - Machine Learning from Disaster
-<b><h2>PREDICT SURVIVAL ON THE TITANIC WITH NAÏVE BAYES</h2></b>
+<b><h3>PREDICT SURVIVAL ON THE TITANIC WITH NAÏVE BAYES</h3></b>
 
 🚢 The sinking of the Titanic is one of the most famous shipwrecks in history. 
 <br/> 📆 On April 15, 1912, during its maiden voyage, the widely considered "unsinkable" RMS Titanic sank after colliding with an iceberg. 
@@ -29,7 +29,7 @@ The training set should be used to build your machine learning models. For the t
  </table>
  
 <br/>
-<h3> ✏️ MISSING VALUE ✏️</h3>
+<h4> ✏️ MISSING VALUE ✏️</h4>
 <li> There are 2 missing values in the ‘Embarked’ column. Embarked implies where the traveler mounted from. There are three possible values for Embark : Southampton, Cherbourg, and Queenstown. Because the missing value in the column is of type str, we’ll fill it in by adding a new value 'N' which means Nothing.<br/>
 <li> There are 177 missing values in the ‘Age’ column. Because the missing value in the column is of type int, we’ll fill it in by mean.<br/>
 <li> Thre are 687 missing values in the ‘Cabin’ column. Since the missing data in the 'Cabin' column exceeds 50% of the dataset, we recommend that this column be omitted.
