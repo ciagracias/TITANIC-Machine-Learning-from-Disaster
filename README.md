@@ -1,0 +1,2 @@
+# TITANIC-Machine-Learning-from-Disaster
+PREDICT SURVIVAL ON THE TITANIC WITH NAÏVE BAYES
