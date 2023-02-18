@@ -1,5 +1,5 @@
 # TITANIC - Machine Learning from Disaster
-<b><h3>PREDICT SURVIVAL ON THE TITANIC WITH NAÏVE BAYES</h3></b>
+<b><h3>PREDICTING SURVIVAL ON THE TITANIC USING NAÏVE BAYES</h3></b>
 
 🚢 The sinking of the Titanic is one of the most famous shipwrecks in history. 
 <br/> 📆 On April 15, 1912, during its maiden voyage, the widely considered "unsinkable" RMS Titanic sank after colliding with an iceberg. 
