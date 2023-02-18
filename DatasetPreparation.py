@@ -37,8 +37,6 @@ age = x_train['Age'].mean()
 x_train['Age'] = x_train['Age'].fillna(age) 
 # Embarked column
 x_train['Embarked'] = x_train['Embarked'].fillna('N')
-# Survived column
-y_train['Survived'] = y_Train['Survived'].fillna(0)
 
 # Handling missing values in  Test Data
 # Age column
